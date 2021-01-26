@@ -1,7 +1,3 @@
----
-author: arctic_hen7
----
-
 # Contributing
 
 Every kind of contribution to this project is welcome, no contribution is too small! Please read our [Code of Conduct](code-of-conduct) before contributing.
@@ -52,5 +48,3 @@ If you need help with contributing, open a discussion on this repository under t
 
 [code-of-conduct]: ./CODE_OF_CONDUCT.md
 [implementor-guidelines]: ./implementors-guidelines.md
-
-\newpage

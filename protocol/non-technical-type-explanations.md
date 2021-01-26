@@ -1,5 +1,4 @@
 ---
-author: arctic_hen7
 version: 0.1.0-rc1
 ---
 
@@ -42,5 +41,3 @@ This kind of error means an unknown problem occurred. If no further information 
 This kind of error means an unknown problem occurred, but there should be further. If no further information has been provided, you should file a bug report so this error message can be made more specific.
 
 [default-paradigm]: ./default-paradigm.md
-
-\newpage

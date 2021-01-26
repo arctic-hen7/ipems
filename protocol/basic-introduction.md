@@ -1,5 +1,4 @@
 ---
-author: arctic_hen7
 version: 0.1.0-rc1
 ---
 
@@ -126,5 +125,3 @@ If you'd like to help out with the project, you can open issues for any errors y
 [specification]: ./specification.md
 [contributing]: ../CONTRIBUTING.md
 [default-paradigm-codes]: ./default-paradigm.md#Specification
-
-\newpage

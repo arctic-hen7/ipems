@@ -1,7 +1,3 @@
----
-author: arctic_hen7
----
-
 # IPEMS Implementor's Guidelines
 
 So you want to make an implementation of IPEMS in your programming language? That's great! Seriously, thank you so much! Without implementations, IPEMS is just a useless specification. This document will outline most of what you need to know to build a great implementation!
@@ -45,5 +41,3 @@ By all means, go ahead! We're happy to list multiple implementations for a singl
 
 [specification]: ./protocol/specification.md
 [basic-introduction]: ./protocol/basic-introduction.md
-
-\newpage

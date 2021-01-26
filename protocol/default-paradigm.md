@@ -1,9 +1,5 @@
 ---
-author: arctic_hen7
 version: 0.1.0-rc1
-header-includes:
-  - \usepackage{enumitem}
-  - \renewlist{enumerate}{enumerate}{20}
 ---
 
 # IPEMS Default Paradigm Specification
@@ -157,5 +153,3 @@ This document will describe the default paradigm that implementations of the IPE
 		- **Generic:** 050-0
 
 [specification]: ./specification.md
-
-\newpage

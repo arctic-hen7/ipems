@@ -1,7 +1,3 @@
----
-author: arctic_hen7
----
-
 # Internal Program Error Management System
 
 The Internal Program Error Management System (IPEMS) manages errors within a program in a universal system similar to HTTP status codes. The system is designed to avoid much of the ambiguity inherent in writing error messages in human language, while simultaneously allowing standardized, simple communication of the nature of an error via a numerical code, or a generated natural language message.
@@ -37,5 +33,3 @@ MIT, see [`LICENSE`](license).
 [basic-introduction]: ./protocol/basic-introduction.md
 [license]: ./LICENSE
 [contributing]: ./CONTRIBUTING.md
-
-\newpage

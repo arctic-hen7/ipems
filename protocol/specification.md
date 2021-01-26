@@ -1,5 +1,4 @@
 ---
-author: arctic_hen7
 version: 0.1.0-rc1
 ---
 
@@ -47,5 +46,3 @@ This document will describe a system of error management to simplify and make mo
 		3.  Users SHOULD provide details of a fallback if one will be taken by their program.
 
 [default-paradigm]: ./default-paradigm.md
-
-\newpage
