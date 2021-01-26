@@ -8,7 +8,7 @@ The world of networking has many standards: HTTP, TCP, IP, FTP, TLS, etc., yet i
 
 ## Specification
 
-This system is defined using a formal specification (a definition of how it should work), the storage and versioning of which is really the only purpose of this repository. As it's designed to be unambiguous and technical, the specification is not beginner-friendly, and beginners who would like to further understand the system are advised to read the [Basic Introduction](basic-introduction). If you think some aspect of the specification is unclear, please speak up! The whole purpose of a specification is to be clear, and if someone can't understand it, it could probably be improved! If you're in this position, please open an issue on this repository! If you'd like to add something to the specification, or alter it otherwise, please see *Contributing* below.
+This system is defined using a formal specification (a definition of how it should work), the storage and versioning of which is really the only purpose of this repository. As it's designed to be unambiguous and technical, the specification is not beginner-friendly, and beginners who would like to further understand the system are advised to read the [Basic Introduction](./protocol/basic-introduction.md). If you think some aspect of the specification is unclear, please speak up! The whole purpose of a specification is to be clear, and if someone can't understand it, it could probably be improved! If you're in this position, please open an issue on this repository! If you'd like to add something to the specification, or alter it otherwise, please see *Contributing* below.
 
 ## Implementations
 
@@ -20,7 +20,7 @@ This system is not yet a standard recognized by any official body. Nevertheless 
 
 ## Contributing
 
-If you want to contribute to the project, that's fantastic! Thank you so much, we really appreciate it! Please see our [Contribution Guidelines](contributing).
+If you want to contribute to the project, that's fantastic! Thank you so much, we really appreciate it! Please see our [Contribution Guidelines](./CONTRIBUTING.md).
 
 ## Authors
 
@@ -28,8 +28,4 @@ If you want to contribute to the project, that's fantastic! Thank you so much, w
 
 ## License
 
-MIT, see [`LICENSE`](license).
-
-[basic-introduction]: ./protocol/basic-introduction.md
-[license]: ./LICENSE
-[contributing]: ./CONTRIBUTING.md
+MIT, see [`LICENSE`](./LICENSE).
