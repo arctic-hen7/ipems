@@ -4,7 +4,7 @@ So you want to make an implementation of IPEMS in your programming language? Tha
 
 ## Where do I start?
 
-Depends on how experienced you are. If you're an experienced programmer, you could probably dive straight into the [full specification](specification). For a more gentle introduction, you can check out the [basic introduction](basic-introduction). That goes through most of what you need to know, but you'll need to reference the full specification for a complete understanding.
+Depends on how experienced you are. If you're an experienced programmer, you could probably dive straight into the [full specification](./protocol/specification.md). For a more gentle introduction, you can check out the [basic introduction](./protocol/basic-introduction.md). That goes through most of what you need to know, but you'll need to reference the full specification for a complete understanding.
 
 ## What features do I have to implement?
 
@@ -38,6 +38,3 @@ We prefer the MIT license, see [this](https://choosealicense.com/licenses/mit/) 
 ## There's already an implementation in my language, but I think I can do better
 
 By all means, go ahead! We're happy to list multiple implementations for a single language!
-
-[specification]: ./protocol/specification.md
-[basic-introduction]: ./protocol/basic-introduction.md

@@ -6,7 +6,7 @@ version: 0.1.0-rc1
 
 ## Abstract
 
-This document will describe the default paradigm that implementations of the IPEMS protocol are required to implement (see the [full specification](specification), section 3.5, *Definition of error classes, types, and severities*).
+This document will describe the default paradigm that implementations of the IPEMS protocol are required to implement (see the [full specification](./specification.md), section 3.5, *Definition of error classes, types, and severities*).
 
 ## Specification
 
@@ -58,7 +58,7 @@ This document will describe the default paradigm that implementations of the IPE
 					- (REQUIRED) Name of the external resource
 				3. **Severities:** This type MUST support all default paradigm severities.
 				4. **Encodings:** This type MUST support all default paradigm encodings.
-				5. **Notes:** This type is very general, and the *Further details* option should also be provided with additional data specific to the error (see the [full specification](specification), section 6.1, *Further details*).
+				5. **Notes:** This type is very general, and the *Further details* option should also be provided with additional data specific to the error (see the [full specification](./specification.md), section 6.1, *Further details*).
 	4. **User:** (REQUIRED)
 		1. **When to use:** This class MUST be used for errors caused by a user of the program, for example an invalid user input.
 		2. **Types:**
@@ -123,7 +123,7 @@ This document will describe the default paradigm that implementations of the IPE
 	1. **Union:** This operation SHOULD be used if an error could be one of many types/severities. It could be likened to *or*.
 	2. **Intersection**: This operation SHOULD be used if an error fits into multiple types/severities *simultaneously*. It could be likened to *and*.
 6. **Special classes:** The following special classes SHOULD/MAY be provided for user convenience in certain situations. These classes MUST NOT support any types or severities. They MUST however support all encodings defined in this specification.
-	1. **Unknown:** (RECOMMENDED) This special class MUST be used for errors whose class/severity cannot yet be ascertained. If the type cannot be ascertained, the *Generic* type MUST be used instead (see [full specification](specification), section 3.2.1, *Generic type*). If possible, this class SHOULD be avoided, and error generation should be deferred until further information can be ascertained.
+	1. **Unknown:** (RECOMMENDED) This special class MUST be used for errors whose class/severity cannot yet be ascertained. If the type cannot be ascertained, the *Generic* type MUST be used instead (see [full specification](./specification.md), section 3.2.1, *Generic type*). If possible, this class SHOULD be avoided, and error generation should be deferred until further information can be ascertained.
 	2. **Generic:** (OPTIONAL) This special class MAY be used in situations of incremental adoption of IPEMS, in which large numbers of errors need to be converted to IPEMS format. One of the largest hurdles here is deciding which class/type/severity each error falls in to. This special class MAY be used as an interim measure to defer that process to a later date, or to make it incremental, while enabling speedy adoption of the IPEMS system and its benefits. Implementations MAY log warnings when this class is used, however if they do so, they MUST provide an option for the user to silence those warnings (lest they be overwhelmed with potentially thousands of them).
 7. **Numerical codes list:**
 	1. **Classes and types:**
@@ -151,5 +151,3 @@ This document will describe the default paradigm that implementations of the IPE
 	3. **Special classes:**
 		- **Unknown:** 000-0
 		- **Generic:** 050-0
-
-[specification]: ./specification.md

@@ -1,12 +1,12 @@
 # Contributing
 
-Every kind of contribution to this project is welcome, no contribution is too small! Please read our [Code of Conduct](code-of-conduct) before contributing.
+Every kind of contribution to this project is welcome, no contribution is too small! Please read our [Code of Conduct](./CODE_OF_CONDUCT.md) before contributing.
 
 ## Kinds of Contributions
 
 Here are a few kinds of contributions we're particularly looking for at the moment, but don't be worried if the contribution you want to make isn't on this list, please go ahead anyway! These are just some suggestions.
 
-- **Implementations of the specification:** This is just a specification of what we think is a good idea. It needs to be actually implemented as code in many different languages to be viable! If you'd like to submit an implementation, please refer to the [Implementor's Guidelines](implementor-guidelines) for further details.
+- **Implementations of the specification:** This is just a specification of what we think is a good idea. It needs to be actually implemented as code in many different languages to be viable! If you'd like to submit an implementation, please refer to the [Implementor's Guidelines](./implementors-guidelines.md) for further details.
 - **Fixing typos and grammar mistakes:** Though everything gets spellchecked, some grammar mistakes in particular will be missed. If you find something like a sentence that doesn't make sense (probably because it was written over lunch...), please let us know!
 	- Note: this specification is written in American English, though the author is more familiar with British English, so British spellings such as `colour` rather than `color` should be pointed out as well.
 - **Clarity fixes:** A technical specification can easily get out of hand in terms of complexity. The specification is supposed to be written in *unambiguous, technical language*. That means that any issues of ambiguity, where something isn't crystal clear, should be pointed out.
@@ -16,7 +16,7 @@ Here are a few kinds of contributions we're particularly looking for at the mome
 
 ## I Found an Issue, But I Don't Want to Contribute
 
-Okay, that's fine too! Just open a new issue, and we'll get to fixing it as soon as we can! Please make sure you fill out our issue template, it's designed to help us. If you don't use it, that just makes our job much harder. Please be polite and considerate in discussions about issues, and follow our [Code of Conduct](code-of-conduct) at all times.
+Okay, that's fine too! Just open a new issue, and we'll get to fixing it as soon as we can! Please make sure you fill out our issue template, it's designed to help us. If you don't use it, that just makes our job much harder. Please be polite and considerate in discussions about issues, and follow our [Code of Conduct](./CODE_OF_CONDUCT.md) at all times.
 
 ## How to Contribute
 
@@ -45,6 +45,3 @@ You can write Markdown in any text editor, but if you want a more fully-featured
 ## Help!
 
 If you need help with contributing, open a discussion on this repository under the *Q&A* category, or send us an email at [ipems@protonmail.com](mailto:ipems@protonmail.com).
-
-[code-of-conduct]: ./CODE_OF_CONDUCT.md
-[implementor-guidelines]: ./implementors-guidelines.md

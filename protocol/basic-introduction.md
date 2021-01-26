@@ -18,7 +18,7 @@ IPEMS aims to solve these problems by providing an *API* (application programmin
 
 IPEMS is written as a *specification*. It's designed to be a universal protocol for error management, like HTTP. However, IPEMS needs to be used in real-world programming languages, and there are hundreds of commonly-used languages, thousands, if not more, of less popular ones. There is no way one team of developers could implement IPEMS in all these languages, so instead, we decided to write a guide on what the protocol should look like, regardless of what language it's implemented in. This means we can tell everyone what IPEMS is and how it works across *all programming languages*. It's up to *implementers* to actually write the code. Of course, the author of the specification is also a programmer, and they developed an [implementation for JavaScript](https://npm.im/ipems)!
 
-If you want to create an implementation of IPEMS, it's actually a great first coding project, and it'll teach you real-world skills! If you're just doing it to learn, you could probably make it based on what you learn in this document, but if you want to do it really properly, you should read the [full specification](specification). Warning: it's kind of programming legalese!
+If you want to create an implementation of IPEMS, it's actually a great first coding project, and it'll teach you real-world skills! If you're just doing it to learn, you could probably make it based on what you learn in this document, but if you want to do it really properly, you should read the [full specification](./specification.md). Warning: it's kind of programming legalese!
 
 ## How does IPEMS classify errors?
 
@@ -110,7 +110,7 @@ See *How does IPEMS classify errors?* above. That goes through the three severit
 - **Full:** For when you want to convey the full meaning of the error, complete with additional options and type parameters, as a string. This uses the short encoding, followed by all the options you provided as a stringified JSON object.
 - **Standard:** For when you want a brief and to the point error message. This doesn't include any of the additional options, but bases the generated message off the type parameters. It also includes short form.
 - **Short:** `[ClassName][TypeName][SeverityName]`, e.g. `CallerParameterCritical` or `UserAuthenticationWarning`.
-- **Numerical:**(implementations are highly recommended to implement this encoding, but they don't have to, so this might not be available everywhere) For when you want a numerical code. The severity is attached to that as `-[Severity code]`. See the [codes list](default-paradigm-codes) in the default paradigm for what the codes are for each class/type/severity.
+- **Numerical:**(implementations are highly recommended to implement this encoding, but they don't have to, so this might not be available everywhere) For when you want a numerical code. The severity is attached to that as `-[Severity code]`. See the [codes list](./default-paradigm.md#Specification) in the default paradigm for what the codes are for each class/type/severity.
 - **Verbose:**(implementations are highly recommended to implement this encoding, but they don't have to, so this might not be available everywhere) For when you want a highly detailed error message explaining everything known about the error. This includes short form and a message composed from type parameters and all additional options. This may span multiple sentences, and potentially could have extra formatting (like dot points).
 - **Non-technical:** (this encoding is optional, so many implementations may not implement it) For when you want to display an error message to a non-programmer, say because your website crashed. This requires you to provide a function to string together a few pieces of information: the short form, numerical form, and a non-technical type explanation. The IPEMS protocol advises what these explanations could be, but they may vary between implementations.
  
@@ -120,8 +120,4 @@ Well, right now, not that stable. The protocol is still in beta (0.x.x), and we'
 
 ## How can I help?
 
-If you'd like to help out with the project, you can open issues for any errors you notice in the IPEMS specification, and you might even want to follow our [Contributing Guidelines](contributing) to fix a problem yourself! You could also create an implementation of IPEMS in your language, that's the best way to help IPEMS grow!
-
-[specification]: ./specification.md
-[contributing]: ../CONTRIBUTING.md
-[default-paradigm-codes]: ./default-paradigm.md#Specification
+If you'd like to help out with the project, you can open issues for any errors you notice in the IPEMS specification, and you might even want to follow our [Contributing Guidelines](./CONTRIBUTING.md) to fix a problem yourself! You could also create an implementation of IPEMS in your language, that's the best way to help IPEMS grow!

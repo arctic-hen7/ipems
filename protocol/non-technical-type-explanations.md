@@ -4,7 +4,7 @@ version: 0.1.0-rc1
 
 # IPEMS Non-Technical Type Explanations
 
-This document will define a series of non-technical explanations of the error types present in the IPEMS Default Paradigm (see [the default paradigm specification](default-paradigm)). These are used in the *non-technical* encoding defined in that specification, and are provided to the custom function the developer provides, so that pre-made error explanations can be shown to the user quickly.
+This document will define a series of non-technical explanations of the error types present in the IPEMS Default Paradigm (see [the default paradigm specification](./default-paradigm.md)). These are used in the *non-technical* encoding defined in that specification, and are provided to the custom function the developer provides, so that pre-made error explanations can be shown to the user quickly.
 
 ## Error Classes
 ### Caller
@@ -39,5 +39,3 @@ This kind of error means an unknown problem occurred. If no further information 
 
 ### Generic
 This kind of error means an unknown problem occurred, but there should be further. If no further information has been provided, you should file a bug report so this error message can be made more specific.
-
-[default-paradigm]: ./default-paradigm.md
